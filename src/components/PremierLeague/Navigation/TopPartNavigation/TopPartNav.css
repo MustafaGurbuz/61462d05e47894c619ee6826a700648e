@@ -1,0 +1,52 @@
+.Link {
+    padding-top: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    height: 55px;
+}
+
+.Link p{
+    color:gray;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.Link img {
+    width: 30px;
+    height: 30px;
+    transition: 0.2s all ease-in-out; 
+}
+
+.Link img:hover,
+.Link img:active {
+    transform: scale(1.4); 
+}
+.Link ul{
+    list-style: none;
+    margin: 0;
+    padding:0;
+    width: 100%;
+    text-align: center;
+}
+
+.Link li{
+    display: inline-block;
+    margin: 10px;
+}
+
+.Link a{
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+@media (max-width:1075px){
+    .DesktopOnly {
+        display: none;
+    }
+}
+
+

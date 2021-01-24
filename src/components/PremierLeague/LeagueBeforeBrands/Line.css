@@ -1,0 +1,9 @@
+.Line{
+    margin-top: 50px;
+    height: 5px ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: sandybrown;
+    background-image: linear-gradient(to right,rgb(52, 71, 240),rgb(235, 46, 194));
+}

@@ -1,0 +1,25 @@
+.NavigationItems {
+    margin: 0;
+    padding: 0;
+    flex-flow: column;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+@media (min-width: 500px) {
+    .NavigationItems{
+        flex-flow: row;
+    }
+}
+
+.Open {
+  margin-left: 175px;
+}
+
+.Close {
+    margin: 0;
+}

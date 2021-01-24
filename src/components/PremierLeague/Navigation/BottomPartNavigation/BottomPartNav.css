@@ -1,0 +1,25 @@
+.Link {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    height: 50px;
+    background-color: white;
+}
+
+@media (min-width: 500px) {
+    .NavigationItems{
+        flex-flow: column;
+    }
+}
+
+@media (max-width:700px) {
+    .DesktopOnly {
+        display: none;
+    }
+    .Link{
+        height: 50px;
+        background-color: white;
+    }
+}

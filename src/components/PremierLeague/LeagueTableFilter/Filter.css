@@ -1,0 +1,47 @@
+.Filter {
+    height: 110px;
+    background-color: white;
+    border: 1px solid lightgray;
+    width: 96%;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Filter Select{
+    font-weight: bold;
+    font-size: 15px;
+    width: 175px;
+    height: 40px;
+}
+
+.Filter Select:hover{
+    color: rgb(235, 24, 8);
+    border-bottom: 2px solid purple;
+}
+
+.Filter option{
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: rgb(187, 176, 176);
+    box-sizing: border-box;
+}
+
+.Filter a{
+    background-color: white;
+    font-size: 15px;
+    color: rgb(179, 171, 171);
+    height: 25px;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-right: 10px;
+    text-transform: uppercase;
+}
+
+.Filter a:hover {
+    color: rgb(235, 19, 127);
+    text-decoration: none;
+}

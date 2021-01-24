@@ -1,0 +1,40 @@
+.LastFooter{
+    margin-top: 20px;
+    height: 50px ;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+.LastFooter p{
+    padding-top: 5px;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.LastFooter img{
+    width: 150px;
+    margin-top: -15px;
+    height: 50px;
+}
+
+.LastFooter li{
+    margin-left: -200px;
+}
+
+.LastFooter a{
+    padding-left: -15px;
+    color: black;
+    font-size: 12px;
+}
+
+.LastFooter a:hover{
+    list-style: inside;
+    color: black;
+}
+
+@media(max-width:700px){
+    .LastFooter li{
+        margin-left: -5px;
+    }
+}
