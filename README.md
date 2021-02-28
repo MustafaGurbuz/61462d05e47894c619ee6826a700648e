@@ -13,7 +13,7 @@ I made an Premier League Table Project with using ReactJS. ReactJS is really use
 
 ## Setup
 
-- Install Visual Studio 2019
+- Install Visual Studio Code Editor or what editor you like
 - npm install
 - npm start
 - Now You can use the Premier League Table
